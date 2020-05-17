@@ -26,7 +26,7 @@ This is the code in the `posts#new` form:
 <!-- app/views/posts/new.html.erb -->
 
 <%= form_tag posts_path do %>
-  <label>Post title:</label><br>
+  <label>Post title:</label><br> 
   <%= text_field_tag :title, @post.title %><br>
 
   <label>Post Description</label><br>
